@@ -13,13 +13,21 @@ nodes. This system allows the implementation of digital services without a
 centralized server.
 
 I have been working on this project for several years, and as it has progressed
-I have had to learn many topics in programing to achieve the functionality I
+I have had to learn many topics in programming to achieve the functionality I
 needed. At the start I implemented a
 [chord](https://github.com/Ocelmot/chord_dht) because I needed the individual
 nodes to be able to find and establish connections to each other. Later when I
 developed the group functionality, I needed to learn about and implement a
 consensus system to ensure that the data shared by the group was the same for
 all users.
+
+#### WF Solver
+
+This [project](https://github.com/Ocelmot/WF-Solver) is an implementation of the
+wave function collapse algorithm, although its constraint solver can be use to
+solve other problems as well. It is written in a generic fashion to allow
+different parts of the solver to be customized, from the values of the cells, to
+the layout, to the how the layout is constrained.
 
 ### Coursework
 
